@@ -1,0 +1,7 @@
+✅ What is Cisco Packet Tracer?
+
+Cisco Packet Tracer is a network simulation software used to design, build, and test computer networks without using real hardware. It allows students and learners to practice networking concepts in a virtual environment.
+
+✅ What is its main purpose?
+
+Its main purpose is to help users simulate and understand networking, practice Cisco CCNA labs, test network configurations, and learn how routers, switches, and other network devices work.

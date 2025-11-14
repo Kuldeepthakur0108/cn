@@ -1,0 +1,34 @@
+ping: ping google.com
+checks if a device or website is reachable and measures how long it takes to respond.
+Helps test internet or network connectivity.
+Identifies packet loss or delays.
+
+Tracert: tracert www.google.com
+shows the path (hops) that data takes to reach a destination.
+Helps locate where network slowdown occurs.
+Useful for diagnosing routing or path issues.
+
+Nslookup: nslookup www.google.com
+queries DNS to find the IP address of a domain.
+Helps check if DNS is working properly.
+Useful for troubleshooting website access issues.
+
+Netstat: netstat -a
+displays active network connections and open ports.
+Helps monitor incoming and outgoing connections.
+Useful for detecting unwanted or suspicious network activity.
+
+ARP: arp -a
+shows the ARP table that maps IP addresses to MAC addresses.
+Helps troubleshoot local network communication.
+Useful for detecting duplicate IP or MAC conflicts.
+
+Ipconfig: ipconfig
+displays your system’s network configuration settings.
+Helps find your IP, gateway, and DNS address.
+Useful for refreshing IP settings using /release and /renew.
+
+Route: route print
+displays or edits the routing table of your system.
+Helps understand how packets are directed through the network.
+Useful for fixing wrong or missing routes.

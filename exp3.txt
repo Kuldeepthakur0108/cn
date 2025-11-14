@@ -1,0 +1,66 @@
+Wireshark is a network analysis tool that captures data packets in real time and shows them in an easy-to-understand format. It has filters, color coding, and other tools that help you examine network traffic and check each packet in detail.
+
+
+Features of Wireshark:
+
+It runs on many operating systems like Windows, Linux, and Mac.
+
+It captures and shows all network packets in a clear, detailed format.
+
+It supports deep analysis of many different network protocols.
+
+It provides live packet capture from different network interfaces.
+
+It allows filtering and sorting to easily find specific network data.
+
+
+
+✅ 1. dns in Wireshark – Why we use it
+
+To see how domain names are converted to IP addresses.
+
+To check if DNS is working properly.
+
+To troubleshoot issues like “website not opening.”
+
+(When you apply a DNS filter like dns, you only see DNS-related packets.)
+
+
+
+✅ 2. frame in Wireshark – Why we use it
+
+To view the packet at its lowest (layer 2) level.
+
+To see details like time captured, packet size, and physical layer info.
+
+It gives a summary of the whole packet as captured by Wireshark.
+
+(Applying frame filters helps analyze packet timing, size, etc.)
+
+
+
+✅ 3. udp.stream eq 17 in Wireshark – Why we use it
+
+To follow or isolate one specific UDP conversation.
+
+It shows only packets belonging to stream number 17.
+
+Helps analyze VoIP calls, gaming traffic, DNS replies, etc. clearly.
+
+(Every UDP flow gets a stream number. Using this filter focuses on just that flow.)
+
+
+
+✅ 4. !(udp.stream == 19) – Why we use it
+
+This filter means: “Show everything EXCEPT UDP stream 19.”
+
+It hides packets from stream 19.
+
+Used when one stream is noisy or unwanted.
+
+Helps focus on all other traffic by removing one specific flow.
+
+Example:
+If UDP stream 19 is generating too many packets, using this filter removes it so you can study the rest easily.
+

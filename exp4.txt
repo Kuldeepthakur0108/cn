@@ -1,0 +1,43 @@
+Install Check: nmap --version
+
+List scan: nmap -sL www.google.com
+
+Ping Sweep: nmap -sP www.google.com
+
+Disable ARP Ping: nmap -sn www.geeksforgeeks.com
+
+TCP SYN Ping: nmap -PS www.geeksforgeeks.com
+
+TCP ACK Ping: nmap -sA www.geeksforgeeks.com
+
+UDP Ping: nmap -sU www.geeksforgeeks.com
+
+IP Protocol Ping: nmap -v -PO www.geeksforgeeks.com
+
+ARP Ping: nmap -PR www.geeksforgeeks.com
+
+TCP Window Scan on Nmap: nmap -sW -T4 www.geeksforgeeks.com
+
+OS Detection using NMAP: nmap -sS 192.168.232.2 -O
+nmap -sS -Pn 192.168.232.2 -O
+
+Aggressive Scsn: nmap -A -Pn 192.168.3232.2
+
+
+
+
+What is Nmap?
+
+Nmap (Network Mapper) is a free and open-source tool used to scan networks and discover devices, services, and security weaknesses.
+
+What Nmap does (simple points)
+
+Discovers devices connected to a network.
+
+Scans open ports on a system.
+
+Identifies running services (like HTTP, FTP, SSH).
+
+Detects operating systems of remote devices.
+
+Helps find security vulnerabilities or weak points.
